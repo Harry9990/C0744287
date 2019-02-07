@@ -5,10 +5,11 @@
 function arrays() {
     var pens;
     pens = ["red", "orange", "green", "blue", "purple"];
-    console.log(pens);
-    console.log(pens[0]);
-    for (i = 0; i < pens.length; i++) {
-        alert(pens[i]);
+    markers = pens;
+    console.log(markers);
+    console.log(markers[0]);
+    for (i = 0; i < markers.length; i++) {
+        alert(markers[i]);
     }
-    alert("Length of arrays is :", i);
+    alert("Length of arrays is : "+ i);
 }
